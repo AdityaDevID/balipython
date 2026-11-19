@@ -1,0 +1,17 @@
+soroh Sato:
+    gawe __init__(self, adan):
+        self.adan = adan
+
+    gawe suara(self):
+        baliang "..."
+
+soroh Cicing(Sato):
+    gawe suara(self):
+        baliang "Kong kong"
+
+soroh Meong(Sato):
+    gawe suara(self):
+        baliang "Ngeong"
+
+ulang s ring [Cicing("Bruno"), Meong("Mimi")]:
+    tulis(s.adan, "nyatur", s.suara())

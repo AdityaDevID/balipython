@@ -1,0 +1,10 @@
+ᬕᬯᬾ sapa(adan):
+    ᬬᭂᬦ᭄ adan == "Wayan":
+        ᬢᬸᬮᬶᬲ᭄("Om Swastyastu, Wayan!")
+    ᬮᬶᬬᬦ᭄:
+        ᬢᬸᬮᬶᬲ᭄("Halo,", adan)
+
+ᬉᬮᬂ i ᬭᬶᬂ ᬚᬂᬓ(3):
+    sapa("ᬚᬕᬢ᭄")
+
+sapa("Wayan")

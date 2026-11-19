@@ -1,0 +1,17 @@
+genap = [x * 2 ᬉᬮᬂ x ᬭᬶᬂ ᬚᬂᬓ(5) ᬬᭂᬦ᭄ x % 2 == 0]
+ᬢᬸᬮᬶᬲ᭄("Genap:", genap, "jumlah:", ᬚᬸᬫ᭄ᬮᬄ(genap), "dawa:", ᬤᬯ(genap))
+
+n = 3
+ᬲᬮᬫᬶ n > 0:
+    ᬢᬸᬮᬶᬲ᭄("itungan mundur", n)
+    n -= 1
+
+ᬬᭂᬦ᭄ ᬧᬢᬸᬢ᭄ ᬫᬶᬯᬄ ᬢᬦ᭄ ᬇᬯᬂ:
+    ᬢᬸᬮᬶᬲ᭄("logika jalan")
+
+ᬘᭀᬩᬓ᭄:
+    x = 1 / 0
+ᬢᬂᬓᭂᬧ᭄ ZeroDivisionError ᬧᬶᬦᬓ e:
+    ᬢᬸᬮᬶᬲ᭄("Iwang:", e)
+ᬯᭂᬓᬲᬦ᭄:
+    ᬢᬸᬮᬶᬲ᭄("Puput")

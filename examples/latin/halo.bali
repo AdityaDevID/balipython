@@ -1,0 +1,10 @@
+gawe sapa(adan):
+    yen adan == "Wayan":
+        tulis("Om Swastyastu, Wayan!")
+    lian:
+        tulis("Halo,", adan)
+
+ulang i ring jangka(3):
+    sapa("Dunia")
+
+sapa("Wayan")

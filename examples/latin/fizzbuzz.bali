@@ -1,0 +1,9 @@
+ulang i ring jangka(1, 16):
+    yen i % 15 == 0:
+        tulis("FizzBuzz")
+    yenlian i % 3 == 0:
+        tulis("Fizz")
+    yenlian i % 5 == 0:
+        tulis("Buzz")
+    lian:
+        tulis(i)

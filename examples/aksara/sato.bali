@@ -1,0 +1,17 @@
+ᬲᭀᬭᭀᬄ Sato:
+    ᬕᬯᬾ __init__(self, adan):
+        self.adan = adan
+
+    ᬕᬯᬾ suara(self):
+        ᬩᬮᬶᬬᬂ "..."
+
+ᬲᭀᬭᭀᬄ Cicing(Sato):
+    ᬕᬯᬾ suara(self):
+        ᬩᬮᬶᬬᬂ "Kong kong"
+
+ᬲᭀᬭᭀᬄ Meong(Sato):
+    ᬕᬯᬾ suara(self):
+        ᬩᬮᬶᬬᬂ "Ngeong"
+
+ᬉᬮᬂ s ᬭᬶᬂ [Cicing("Bruno"), Meong("Mimi")]:
+    ᬢᬸᬮᬶᬲ᭄(s.adan, "nyatur", s.suara())

@@ -1,0 +1,17 @@
+genap = [x * 2 ulang x ring jangka(5) yen x % 2 == 0]
+tulis("Genap:", genap, "jumlah:", jumlah(genap), "dawa:", dawa(genap))
+
+n = 3
+salami n > 0:
+    tulis("itungan mundur", n)
+    n -= 1
+
+yen Patut miwah tan Iwang:
+    tulis("logika jalan")
+
+cobak:
+    x = 1 / 0
+tangkep ZeroDivisionError pinaka e:
+    tulis("Iwang:", e)
+wekasan:
+    tulis("Puput")

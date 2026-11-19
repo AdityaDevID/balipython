@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "balipy"
+version = "0.1.0"
+description = "BaliPython - Python dengan Aksara Bali"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "AdityaDevID" }]
+keywords = ["bali", "aksara bali", "python", "bahasa pemrograman", "transpiler"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Indonesian",
+]
+
+[project.urls]
+Homepage = "https://github.com/AdityaDevID/balipython"
+Issues = "https://github.com/AdityaDevID/balipython/issues"
+
+[project.scripts]
+balipy = "balipy.cli:main"
+bpy = "balipy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
